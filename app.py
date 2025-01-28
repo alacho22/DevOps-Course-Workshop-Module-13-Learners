@@ -11,6 +11,7 @@ import logging
 
 
 logging.basicConfig(level=logging.INFO)
+
 app = Flask(__name__)
 app.config.from_object(Config)
 
